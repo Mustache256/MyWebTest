@@ -16,3 +16,10 @@ h1{
 .links{
 	float: right;
 }
+.links a:link{
+	color:black;
+}
+.links a:visited{
+	color:black;
+}
+.links 
