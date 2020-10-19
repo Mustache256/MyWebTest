@@ -1,0 +1,15 @@
+body{
+	background-color: grey;
+}
+h1{
+	font-weight: bold;
+}
+header{
+	background-color: white; float: top; height: 3rem;
+}
+footer{
+	background-color: white; float: bottom; height: 3rem;
+}
+image_flag{
+	width: 300; height: 150;
+}
