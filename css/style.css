@@ -4,12 +4,15 @@ body{
 h1{
 	font-weight: bold;
 }
-header{
+#header{
 	background-color: white; float: top; height: 3rem;
 }
-footer{
+#footer{
 	background-color: white; float: bottom; height: 3rem;
 }
-image_flag{
+.image_flag{
 	width: 300; height: 150;
+}
+.links{
+	float: right;
 }
