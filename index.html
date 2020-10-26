@@ -4,9 +4,9 @@
      <title>Welcome!</title>
 	 <link rel="stylesheet" type="text/css" href="css/style.css">
 	 <script src="JavaScript/jsmain.js"></script>
-	 <input type="button" value="Click Me!" onclick="main()"></input>
+	 <input type="button" value="Click Me!" onclick="main()">
    </head>
-   <body style="background-color: grey">
+   <body>
      <h1 style="font-weight: bold">Welcome to my test page</h1>
 	 
 	 <!-- Heading Section -->
@@ -15,9 +15,15 @@
 	   <div style="float: left">
 	    <p>Hello! Welcome to the web page!</p>
 	   </div>
-	   <div class="links">
-	    <p><a href="index.html">Home</a> | <a href="contact.html">Contact</a> | CV | Projects</p>
+	   <div class="Menu">
+	    <p><a onclick="check()" href="#" style="float:right">| Menu |</a></p>
 	   </div>
+	 </div>
+	 <div id="dropdown">
+		<a href="index.html"><img style="height: 100px" src="images/Home.jpg"></a>
+		<a href="contact.html"><img style="height: 100px" src="images/contact.jpg"></a>
+		<img style="height: 100px" src="images/CV.jpg">
+		<img style="height: 100px" src="images/projects.jpg">
 	 </div>
 	 <br>
 	 
@@ -28,7 +34,7 @@
 		<img src="images/monkey flag.jpg">
 	 </div>
 	 <p>This part of the text is <span style="font-weight: bold">bold</span></p>
-	 <p>This part of the text is <span style="color: red">red</span>
+	 <p>This part of the text is <span style="color: red">red</span></p>
 	 <p>This part of the text is <span style="font-weight: bold; color: red">bold and red</span></p>
 	 <p style="font-style: italic">Italic Text</p>
 	 

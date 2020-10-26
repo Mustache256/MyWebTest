@@ -5,21 +5,30 @@ h1{
 	font-weight: bold;
 }
 #header{
-	background-color: white; float: top; height: 3rem;
+	background-color: white; 
+	float: top; 
+	height: 3rem;
 }
 #footer{
-	background-color: white; float: bottom; height: 3rem;
+	background-color: white; 
+	float: bottom; 
+	height: 3rem;
 }
 .image_flag{
-	width: 300; height: 150;
+	width: 300; 
+	height: 150;
 }
-.links{
+.menu{
 	float: right;
 }
-.links a:link{
+.menu a:link{
 	color:black;
 }
-.links a:visited{
+.menu a:visited{
 	color:black;
 }
-.links 
+#dropdown{
+	background:blue; 
+	border-bottom:1px solid black; 
+	display:none;
+}	
